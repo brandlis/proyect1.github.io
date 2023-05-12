@@ -2,14 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link href="css/hover.css" rel="stylesheet" media="all">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/ee844c6169.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
+  <div class="container">
+    <img src="img/imagen.jpg" alt="">
+    <div class="container_description">
+      <p class="container_description_title">PERFUME</p>
+      <h1>D&G Anthology L'Impératrice</h1>
+      <p>Is a fragrance between floral and fruity, very fresh, clean, sweet and full of vitality. The Empress is a
+        vibrant,magnetic scent, with charisma and character ....</p>
+      <h2>$ 149.99 <span>$ 169.99</span></h2>
+      <button id="btn-add" class="btn-add"> <i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+    </div>
+    <div id="container-message" class="container-message">
+      <p class="container_message_tittle">thanks for your purchase</p>
+      <button id="btn-continue" class="container_message_button">Continue</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 
 </html>
