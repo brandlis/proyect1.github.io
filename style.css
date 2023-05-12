@@ -238,4 +238,8 @@ p {
   .container_message_tittle {
     text-align: center;
   }
+
+  .designer_networks {
+    font-size: 40px;
+  }
 }
